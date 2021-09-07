@@ -1,0 +1,75 @@
+.login__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/food.jpg");
+  background-color: black;
+  background-blend-mode: screen;
+}
+
+.login__form {
+  width: 350px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  background-color: #91858190;
+  border-radius: 30px;
+  padding: 0 2.5rem 1rem;
+}
+
+.inputName {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputPass {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login__label {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: black;
+}
+
+.login__input {
+  padding: 1rem 0.8rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.login__logo {
+  position: absolute;
+  font-size: 8rem;
+  font-family: "Lobster", cursive;
+  left: 50%;
+  top: 5%;
+  color: black;
+  transform: translate(-50%);
+}
+
+.login__link {
+  color: black;
+  margin-top: 1rem;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.lo__btn {
+  margin-top: 2rem;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <script defer src="./src/js/views/signupView.js"></script>
+    <title>SignUp | DataFood</title>
+  </head>
+  <body class="signup__body">
+    <div class="signup__image-container"></div>
+    <div class="signup__container">
+      <!-- <span></span> -->
+      <div class="signup__logo">
+        <p class="signup_logo">DataFood</p>
+      </div>
+      <form class="signup__form" action="">
+        <div class="inputName">
+          <label for="name" class="signup__label">Nombre</label>
+          <input type="text" name="name" id="su__name" class="signup__input" />
+        </div>
+
+        <div class="inputEmail">
+          <label for="email" class="signup__label">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="su__email"
+            class="signup__input"
+          />
+        </div>
+
+        <div class="inputPass">
+          <label for="pass" class="signup__label">Contraseña</label>
+          <input
+            type="password"
+            name="pass"
+            id="su__pass"
+            class="signup__input"
+          />
+        </div>
+
+        <div class="inputConfPass">
+          <label for="confPass" class="signup__label"
+            >Confirmar contraseña</label
+          >
+          <input
+            type="password"
+            name="confPass"
+            id="su__confPass"
+            class="signup__input"
+          />
+        </div>
+        <a class="su__link" href="./home_page.html"
+          ><button type="submit" class="btn su__btn">Registrarse</button></a
+        >
+
+        <a class="signup__link" href="./login.html">¿Ya tienes una cuenta?</a>
+      </form>
+    </div>
+  </body>
+</html>

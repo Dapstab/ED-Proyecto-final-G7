@@ -1,0 +1,83 @@
+.signup__body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.signup__image-container {
+  background-image: url("../img/restaurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 1;
+}
+
+.signup__container {
+  grid-column: 2;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__form {
+  width: 350px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  border-radius: 30px;
+  padding: 0 2.5rem 1rem;
+}
+
+.inputName,
+.inputPass,
+.inputEmail,
+.inputConfPass {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signup__label {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.signup__input {
+  padding: 1rem 0.8rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.signup__logo {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: black;
+}
+
+.signup__link {
+  color: black;
+  margin-top: 1rem;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.su__btn {
+  margin-top: 2rem;
+}
+
+.su__link {
+  text-decoration: none;
+}
